@@ -27,8 +27,7 @@ height: 350px;
     width: 100%;
     width: 393px;
     height: 350px;
-    align-items: center;
-    justify-content: center;
+
 }
 
 .quadradofundo{
@@ -37,17 +36,17 @@ height: 350px;
     height: 696px;
     border-radius: 34px;
    margin-top: 20px;
-   display: flex;
+   display: grid;
    justify-content: center;
    padding: 30px 0;
    gap: 20px;
-   flex-direction: column;
-
+   
 }
 
 .foto2{
     width: 169px;
     height: 164px;
+    position: relative;
     
 }
 
@@ -59,114 +58,6 @@ height: 350px;
     
 }
 
-.foto3{
-    width: 169px;
-    height: 164px;
-    
-}
-.foto3 img{
-    width: 169px;
-    height: 164px;
-}
-
-.foto4{
-    width: 169px;
-    height: 164px;
-}
-.foto4 img{
-    width: 169px;
-    height: 164px;
-}
-
-.quadradofundo2{
-    background-color: gainsboro;
-    width: 390px;
-    height: 696px;
-    border-radius: 34px;
-   margin-top: 20px;
-   display: flex;
-   justify-content: center;
-   padding: 30px 0;
-   gap: 20px;
-
-}
-.foto22{
-    width: 169px;
-    height: 164px;
-    
-}
-
-.foto22 img{
-    
-    width: 169px;
-    height: 164px;
-    
-    
-}
-
-.foto33{
-    width: 169px;
-    height: 164px;
-    
-}
-.foto33 img{
-    width: 169px;
-    height: 164px;
-}
-
-.foto44{
-    width: 169px;
-    height: 164px;
-}
-.foto44 img{
-    width: 169px;
-    height: 164px;
-}
-
-.quadradofundo3{
-    background-color: gainsboro;
-    width: 390px;
-    height: 696px;
-    border-radius: 34px;
-   margin-top: 20px;
-   display: flex;
-   justify-content: center;
-   padding: 30px 0;
-   gap: 20px;
-
-}
-.foto222{
-    width: 169px;
-    height: 164px;
-    
-}
-
-.foto222 img{
-    
-    width: 169px;
-    height: 164px;
-    
-    
-}
-
-.foto333{
-    width: 169px;
-    height: 164px;
-    
-}
-.foto333 img{
-    width: 169px;
-    height: 164px;
-}
-
-.foto444{
-    width: 169px;
-    height: 164px;
-}
-.foto444 img{
-    width: 169px;
-    height: 164px;
-}
 
 .quadradobaixo{
     background-color: blue;
@@ -174,12 +65,13 @@ height: 350px;
     margin-top: 20px;
     display: flex;
    justify-content: center;
-   padding: 200px 0;
-   gap: 30px;
+   
 }
 .youtube{
     width: 123px;
     height: 96px;
+    padding: 200px 0;
+   gap: 30px;
 }
 .youtube img{
     width: 100%;
@@ -188,8 +80,22 @@ height: 350px;
 .instagram{
     width: 123px;
     height: 96px;
+    padding: 200px 0;
+   gap: 30px;
 }
 
 .instagram img{
     width: 100%;
+}
+
+.texto{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 20px;
+
+}
+
+.esgotado{
+    position: absolute;
+    width: 169px;
+    height: 164px;
 }
